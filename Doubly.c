@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-#include<Stdlib.h>
+#include<stdlib.h>
 struct node
 {
 	int data;
@@ -85,7 +85,7 @@ void main()
 			case 1: insert();break;
 			case 2:display();break;
 			case 3:AscendDisplay();break;
-			default :printf("INVALid\n");
+			default :printf("INVALID\n");
 		}
 	}
 }
